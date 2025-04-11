@@ -1,7 +1,8 @@
-version: "3.3"
+rversion: "3.3"
 
 services:
   app:
     build: .
     command: bash start.sh
-    restart: on-failure
+    restart: on-failure 
+    .
